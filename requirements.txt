@@ -4,3 +4,6 @@ Pillow
 ipython
 sentencepiece 
 tiktoken
+google-genai
+dotenv
+streamlit
