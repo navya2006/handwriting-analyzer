@@ -47,12 +47,14 @@ The goal of this project is to combine OCR with handwriting analysis to provide 
 ```
 handwriting-analyzer/
 │
-├── frontend/
-├── backend/
-├── models/
-├── uploads/
-├── static/
-├── templates/
+├── .ipynb_checkpoints/      # Jupyter notebook checkpoints
+├── analyzer.py              # Handwriting scoring and analysis logic
+├── app.py                   # Main application
+├── test_models.py           # checking which gemini models are compatible
+├── TrOcr_module.ipynb       # Experiments with Microsoft's TrOCR model
+├── process.jpeg             # Sample image for testing
+├── requirements.txt         # Python dependencies
+├── .gitignore
 └── README.md
 ```
 
